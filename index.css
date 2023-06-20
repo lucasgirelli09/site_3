@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto Mono', 'sans-serif';
+  }
+
+  body {
+    background-color: #084F8C;
+  }
+
+  figure {
+    width: 50px;
+    margin-left: 50px;
+  }
+
+  #cabecalho {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  #fortes {
+    height: 40px;
+  }
+
+  .icones_esquerda {
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  header h1 {
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .icones_direita {
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  #rodape {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 10px;
+  }
+
+  .ir {
+    display: flex;
+    align-items: center;
+  }
+
+  .icones_rodape {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+
+  .ir p {
+    margin-right: 40px;
+    font-size: 16px;
+  }
+
+  .icones_topo {
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .container_topo img:first-child {
+    float: left;
+  }
+
+  .container_topo img:last-child {
+    float: right;
+  }
+
+  .container_topo {
+    margin-bottom: 70px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+  }
+
+  .item {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+    background-color: aliceblue;
+    width: 300px;
+    
+    
+    
+    
+  }
+
+  .item img {
+   max-height: 200px; 
+    max-width:300px; 
+    margin: 0 auto;
+    
+  }
+
+
+  figcaption {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+  }
+  .baixo {
+    font-weight: bold;
+    font-size: 120%;
+    
+
+  }
+  .invisivel {
+   color: aliceblue;
+  }
+ 
